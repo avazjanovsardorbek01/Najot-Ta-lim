@@ -1,0 +1,8 @@
+.TeslaTwo {
+  background: url(../../assets/ModelRed.png);
+  background-repeat: no-repeat;
+  background-position-y: 112px;
+  background-position-x: center;
+  background-color: black;
+  height: 100vh;
+}

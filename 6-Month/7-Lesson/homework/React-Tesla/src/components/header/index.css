@@ -1,0 +1,111 @@
+header {
+  padding: 20px 100px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 180px;
+  height: 23.47px;
+  top: 73px; /* Main Header Styles */
+  header {
+    padding: 20px 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Logo Styling */
+  .logo {
+    width: 180px;
+    height: 23.47px;
+    /* If the logo should be visible, set opacity to 1 */
+    opacity: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Navigation Links Section */
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+  }
+
+  /* Navigation Link Styles */
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover,
+  .active-link {
+    color: #00aaff; /* Active/hover color */
+  }
+
+  /* Search Box Styling */
+  .search {
+    display: inline-block;
+    font-weight: 500;
+    padding-left: 47px;
+    outline: none;
+    width: 174px;
+    height: 40px;
+    border-radius: 85px;
+    border: none;
+    background: url(../../assets/search.png) 10px center no-repeat;
+    background-color: #181919;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-left: 40px;
+  }
+
+  .search input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .search::placeholder {
+    color: #ffffff;
+  }
+
+  /* Right Side Icons */
+  .header-right .icon {
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .header-right .icon:hover {
+    opacity: 0.8;
+  }
+
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+.search {
+  font-weight: 500;
+  padding-left: 47px;
+  outline: none;
+  width: 174px;
+  height: 40px;
+  border-radius: 85px;
+  border: none;
+  background: url(../../assets/search.png);
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-color: #181919;
+}

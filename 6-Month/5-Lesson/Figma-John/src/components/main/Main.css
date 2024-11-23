@@ -1,0 +1,16 @@
+.container {
+  max-width: 1152px;
+}
+.Main {
+  background-color: #edf7fa;
+}
+
+.second-p {
+  width: 129px;
+  height: 60px;
+  top: 602px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 27px;
+}

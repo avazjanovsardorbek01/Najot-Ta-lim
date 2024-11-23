@@ -1,0 +1,50 @@
+.container {
+  max-width: 1152px;
+}
+.nav {
+  margin-top: 10px;
+  margin-left: 420px;
+}
+.hero-section {
+  margin-top: 80px;
+}
+.Hero {
+  margin-top: 150px;
+  width: 405px;
+  height: 105px;
+  top: 228px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: bold;
+}
+.first-p {
+  margin-top: 40px;
+  width: 497px;
+  height: 66px;
+  top: 373px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.btn-dowonload {
+  margin-top: 38px;
+  width: 208px;
+  height: 47px;
+  top: 486px;
+  left: 168px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ff6464;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 9px 21px 17px 20px;
+}
+
+.img {
+  width: 243px;
+  height: 243px;
+  margin-left: 115px;
+}

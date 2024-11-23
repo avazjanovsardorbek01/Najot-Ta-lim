@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-section {
+  background: #f5f5f5;
+  height: 1140.25px;
+  flex-shrink: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 167px;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px; /* 112.5% */
+}
+
+.par-1 {
+  padding-top: 27px;
+  text-align: center;
+}
+
+.hero-img {
+  padding-top: 90px;
+}
+
+.buttons {
+  padding-top: 78px;
+  text-align: center;
+  letter-spacing: 22px;
+}
+
+.btn-1 {
+  width: 189px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background: #6f2cff;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+  cursor: pointer;
+}
+
+.btn-2 {
+  border: none;
+  width: 187px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px #6f2cff;
+  color: #6f2cff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+  cursor: pointer;
+}
+
+.second-h1 {
+  padding-top: 88px;
+}
+
+.cards {
+  padding-top: 70px;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 223px;
+  gap: 40px;
+}
+
+.card-content {
+  background: #f5f5f5;
+  height: 420px;
+}
+
+.card-1 {
+  background: #f5f5f5;
+  width: auto;
+  border-radius: 0px 0px 7px 7px;
+  background: #f5f5f5;
+  box-shadow: 0px 2px 4px 0px rgba(192, 192, 192, 0.5);
+}
+
+.main-img-2 {
+  padding-top: 20px;
+  margin-left: 80px;
+}
+
+.par-2 {
+  padding-top: 25px;
+  margin-left: 55px;
+  height: 88px;
+  width: 195px;
+  color: #6f2cff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 122.222% */
+}
+
+.card-2 {
+  background: #f5f5f5;
+  width: auto;
+  border-radius: 0px 0px 7px 7px;
+  background: #f5f5f5;
+  box-shadow: 0px 2px 4px 0px rgba(192, 192, 192, 0.5);
+}
+
+.card-3 {
+  background: #f5f5f5;
+  width: auto;
+  border-radius: 0px 0px 7px 7px;
+  background: #f5f5f5;
+  box-shadow: 0px 2px 4px 0px rgba(192, 192, 192, 0.5);
+}
+
+.par-3 {
+  padding-top: 25px;
+  margin-left: 55px;
+  color: #6f2cff;
+  text-align: center;
+  width: 219px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 122.222% */
+}
+
+.main-img-3 {
+  padding-top: 25px;
+  margin-left: 118px;
+}
+
+.last-section {
+  display: inline-block;
+  margin-top: 400px;
+  background: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.par-4 {
+  color: #000;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card {
+  margin-top: 58px;
+  background: #17002e;
+  width: 592px;
+  height: 199px;
+  border-radius: 10px;
+}
+.last-section__img {
+  width: 53.571px;
+  height: 50px;
+  margin-top: 42px;
+  margin-left: 24px;
+}
+
+.third-h1 {
+  margin-top: -204px;
+  color: #f5f5f5;
+  margin-right: 166px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+
+.par-5 {
+  padding-top: 17px;
+  color: #f5f5f5;
+  margin-left: 26px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+
+.par-6 {
+  padding-top: 4px;
+  color: #f5f5f5;
+  margin-left: 26px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+
+.line {
+  margin-top: 4px;
+  margin-left: 26px;
+  width: 400px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #f5f5f5;
+}
+
+.card {
+  margin-top: 58px;
+  background: #17002e;
+  width: 592px;
+  height: 199px;
+  border-radius: 10px;
+}
+.all-cards {
+  display: grid;
+  margin-top: 43px;
+}
+.card {
+  width: 500px;
+  height: 230px;
+  margin: 5px;
+  flex: 0 0 calc(50% - 20px);
+}
+.all-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  margin-top: 43px;
+  gap: 14px;
+}

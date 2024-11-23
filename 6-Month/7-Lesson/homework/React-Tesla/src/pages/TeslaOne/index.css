@@ -1,0 +1,8 @@
+.TeslaOne {
+  background: url(../../assets/Model.png);
+  background-repeat: no-repeat;
+  background-position-y: 65px;
+  background-position-x: center;
+  background-color: black;
+  height: 100vh;
+}
